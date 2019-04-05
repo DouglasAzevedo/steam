@@ -57,7 +57,7 @@ class JogosController < ApplicationController
     @jogo.destroy
     respond_to do |format|
       format.html { redirect_to jogos_url, notice: 'Jogo was successfully destroyed.' }
-      format.json { head :no_content}
+      format.json { head :no_content  }
     end
   end
 
